@@ -1,0 +1,62 @@
+//console.log(document.getElementById("count").value);
+//console.log(document.getElementById("count").id);
+//var count = document.getElementById("count");
+//var equ = document.getElementById("equ");
+//console.log([count]);
+//console.log(count.value)
+console.log(document.getElementById("count").value);
+console.log(document.getElementById("count").id);
+/*var a=eval(3+4);
+console.log(a);*/
+document.getElementById("num1").onclick = function(){
+	jsq.value = jsq.value+"1";
+}
+document.getElementById("num1").onclick=function(){
+	count.value=count.value+"1";
+}
+document.getElementById("num2").onclick=function(){
+	count.value=count.value+"2";
+}
+document.getElementById("num3").onclick=function(){
+	count.value=count.value+"3";
+}
+document.getElementById("add").onclick=function(){
+	count.value=count.value+"+";
+}
+document.getElementById("num4").onclick=function(){
+	count.value=count.value+"4";
+}
+document.getElementById("num5").onclick=function(){
+	count.value=count.value+"5";
+}
+document.getElementById("num6").onclick=function(){
+	count.value=count.value+"6";
+}
+document.getElementById("minus").onclick=function(){
+	count.value=count.value+"-";
+}
+document.getElementById("num7").onclick=function(){
+	count.value=count.value+"7";
+}
+document.getElementById("num8").onclick=function(){
+	count.value=count.value+"8";
+}
+document.getElementById("num9").onclick=function(){
+	count.value=count.value+"9";
+}
+document.getElementById("mli").onclick=function(){
+	count.value=count.value+"*";
+}
+document.getElementById("num0").onclick=function(){
+	count.value=count.value+"0";
+}
+document.getElementById("equ").onclick=function(){
+	count.value=eval(count.value);
+	console.log(count);
+}
+document.getElementById("clear").onclick=function(){
+	count.value="";
+}
+document.getElementById("div").onclick=function(){
+	count.value=count.value+"/";
+}
